@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh 'npm test'
+        sh 'ls -a'
+        sh 'npx jest'
       }
     }
   }
