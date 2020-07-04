@@ -4,7 +4,7 @@ pipeline {
     stage('Test') {
       steps {
         sh 'ls -a'
-        sh 'npx jest'
+        sh 'npm test'
       }
     }
   }
